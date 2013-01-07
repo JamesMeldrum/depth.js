@@ -1,0 +1,359 @@
+BODY {margin-top: 0px;
+font-family: calibri;}
+BODY {background-color: white}
+P {font-family: arial; font-size: 12pt; color: black}   
+
+
+.sect1{
+        background-color: blue; 
+        width: 100%;
+    }
+    .sect3{
+*/  
+        background: white;
+    }
+    #mid-1{
+        width: 500px;
+        height: 500px;
+        background: black;
+        position: absolute;
+        
+    }
+    #front-1{
+        font-size: 60px;
+        font-weight: bold;
+        color: white;
+        width: 210px;
+        line-height: 70px;
+
+    }
+    #mid-2{
+        width: 400px;
+        height: 400px;
+        background: black;
+        bottom: 0px;
+        
+    }
+    #front-2{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        width: 400px;
+        height: 400px;
+        bottom: 0px;
+    }
+    .active{
+        background: white;
+        color: black;
+    }
+    .sect2{
+        background-color: #00dd00; 
+    }
+    #mid-3{
+        width: 400px;
+        height: 400px;
+        bottom: 0px;
+        
+    }
+    #front-3{
+        font-size: 50px;
+        font-weight: bold;
+        color: white;
+        width: 300px;
+        height: 300px;
+        line-height: 55px;
+        bottom: 0px;
+    }
+    #front-4{
+        width: 400px;
+        height: 300px;
+        bottom: 0px;        
+    }
+    #footer_options{
+        display: none;
+    }
+    .backPanel{
+        overflow:hidden;
+        position: relative;
+    }
+    .midPanel{
+        margin-left: auto;
+        margin-right: auto;
+        left: 0px;
+        right: 0px;
+        position: absolute;
+        bottom: 0px;
+    }
+    .frontPanel{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        left: 0px;
+        right: 0px;
+        position: absolute;
+    
+    
+    }
+    #buttMid{
+        display: block;
+        position: fixed;
+    }
+    .controlPanel{
+        display: block;
+        position: fixed;
+        z-index: 1;     
+        width: 100px;
+        background: black;
+        color: white;
+    }
+    .sideButton{
+        position: relative;
+        display: block;
+        font-size: 30px;
+
+        padding:40px;
+    }
+    .sideButton:hover{
+        background: white;
+        color: black;
+        cursor: pointer;
+        cursor: hand;
+    }
+    #normalBack{
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    #initialBack{
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    #headerBody{
+        display: block;
+        position: absolute;
+        top: 101px;
+        left: 100px;
+        width: 600px;
+        height: 400px;  
+        background: white;
+        padding: 50px;
+        color: #222;
+    }
+
+    #mainHeading{
+        font-size: 50px;
+        font-weight: bold;
+        height: 60px;
+    
+    }
+    #mainBody{
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 35px;
+        
+    }
+    #secondBody{
+        background:url('../images/sydneybnw.jpg');
+        display: block;
+        position: relative;
+        background-attachment: fixed;
+        background-size: 100% auto;
+        width: 100%;
+        height: 100%;
+        
+        color: #222;
+    }
+    #secondInro{
+        display: block;
+        position: absolute;
+        top: 100px;
+        right: 100px;
+        width: 600px;
+        height: 400px;
+        padding: 50px;
+        color: white;;
+    }
+    #secondInroOpac{
+        display: block;
+        position: absolute;
+        top: 100px;
+        right: 100px;
+        width: 600px;
+        height: 400px;
+        background: black;
+        opacity: 0.75;
+        padding: 50px;
+    }
+    #thirdImg{
+        background-size: 100%;
+        height: 100%;
+        
+    }
+    #tri{
+        width: 0;
+        height: 0;
+        border-top: 400px solid transparent;
+        border-left: 400px solid black;
+        display: block;
+        position: absolute;
+    }
+    
+    #toptri{
+        width: 0;
+        height: 0;
+        border-bottom: 400px solid transparent;
+        border-right: 400px solid black;
+        display: block;
+        position: absolute;
+        margin-left:auto;
+        margin-right:auto;
+        left: 0px;
+        right: 0px;
+    }
+    #botTemp{
+        display: block;
+        position: absolute;
+        z-index: 3;
+        left: 300px;
+        top: -250px;
+        width: 500px;
+
+    }
+    .sect4{
+        background: #00eeff;
+    
+    }
+    .sect5{
+        background: #ffff00;
+    
+    }   
+
+    .teeth{
+        top: 0px;
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 50px solid white;
+    }
+    .teethBot{
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 50px solid white;
+        bottom: 0px;
+    }
+    .teeth1{
+        display: block;
+        position: absolute;
+    }
+    .teeth2{
+        display: block;
+        position: absolute;
+        left: 100px;
+    }
+    .teeth3{
+        display: block;
+        position: absolute;
+        left: 200px;
+    }
+    .teeth4{
+        display: block;
+        position: absolute;
+        left: 300px;
+    }
+    .teeth5{
+        left: 400px;
+        display: block;
+        position: absolute;
+    }
+    .eye{
+        border-radius: 50%;
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background: black;
+        top: -150px;
+        position: absolute;
+
+    }
+    #eyeLeft{
+        left: 0px;
+    }
+    #eyeRight{
+        right: 0px;
+    }
+    #mouthText{
+        margin-top: 130px;
+    }
+    #heartRight{
+        width: 350px;
+        height: 500px;
+        position: absolute;
+        content: "";
+        background: #fc2e5a;
+        -moz-border-radius: 200px 200px 0 0;
+        border-radius: 200px 200px 0 0;
+        -webkit-transform: rotate(45deg);
+           -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+             -o-transform: rotate(45deg);
+                transform: rotate(45deg);
+        -webkit-transform-origin: 100% 100%;
+           -moz-transform-origin: 100% 100%;
+            -ms-transform-origin: 100% 100%;
+             -o-transform-origin: 100% 100%;
+                transform-origin :100% 100%;
+
+        right: 198px;
+    }
+    #heartLeft{
+    width: 350px;
+    height: 500px;
+        position: absolute;
+        content: "";
+        top: 0;
+        background: #fc2e5a;
+        -moz-border-radius: 200px 200px 0 0;
+        border-radius: 200px 200px 0 0;
+        -webkit-transform: rotate(-45deg);
+           -moz-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+             -o-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+        -webkit-transform-origin: 0 100%;
+           -moz-transform-origin: 0 100%;
+            -ms-transform-origin: 0 100%;
+             -o-transform-origin: 0 100%;
+                transform-origin: 0 100%;   
+    left: 300px;
+    margin-top: 150px;
+    }
+    #heartText{
+        color:#fc2e5a;
+        position: absolute;
+        top: -200px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    #mid-4{
+     width: 600px;
+     height: 600px;
+    }
+    #depthjs{
+        font-size: 50px;
+        font-weight: bold;
+        color: white;
+        background: black;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        padding: 20px;
+        line-height: 55px;
+        z-index:4;
+    }

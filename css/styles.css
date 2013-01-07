@@ -1,0 +1,79 @@
+.no-support-message {
+	display: none;
+}
+
+.impress-not-supported .no-support-message {
+	display: block;
+}
+
+/* additional styles just to make things look a bit nicer */
+body {
+	/*	font:16px/24px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+*/
+	color: black;
+}
+
+.step {
+	width: 940px;
+	margin: 0 auto 24px auto;
+	text-align: center;
+}
+
+#stepHeader {
+	font-size: 80px;
+	padding-bottom: 70px;
+	font-family: impact;
+}
+
+#stepBody {
+	font-size: 30px;
+	font-family: impact;
+	padding-bottom: 70px;
+}
+
+#stepBottom {
+	font-size: 20px;
+	font-family: impact;
+}
+
+#worldHeading {
+	font-size: 90px;
+	font-family: impact;
+	position: absolute;
+	z-index: 2;
+}
+
+#stepWorld {
+	color: white;
+}
+
+#stepCode {
+	font-family: COURIER;
+	padding-bottom: 70px;
+	text-align: left;
+	padding: 20px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#jImg{
+height: 130px;
+display: block;
+position: absolute;
+top: 0px;
+right: 0px;	
+}
+#starfield {
+	background: black;
+	width: 960px;
+	height: 400px;
+	z-index: 1;
+}
+#stepLastHeader{
+font-size: 40px;
+padding-bottom: 70px;
+font-family: impact;
+width: 350px;
+margin-left: auto;
+margin-right: auto;	
+}
